@@ -1,0 +1,42 @@
+<!-- /*
+    ** Creat by DAA 
+    ** 2021/12/22 1:30 PM
+
+*/ -->
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+.container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+.container form .input {
+    width: 70%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid #bbb;
+    outline: none;
+}
+.container form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 19px;
+    border: none;
+    background-color: rgb(219, 166, 21);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
